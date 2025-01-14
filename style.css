@@ -1,0 +1,13 @@
+#header {
+  text-align: center;
+  justify-content: center;
+  font-size: 1em;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
