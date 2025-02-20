@@ -73,6 +73,7 @@ p {
     align-items: center;
     justify-content: center;
   }
+}
 
 @media (max-width: 698px) {
   .noline {
