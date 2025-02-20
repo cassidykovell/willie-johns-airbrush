@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo.jpg'
+import '../assets/css/style.css'
 
 const Landing = () => {
   return (

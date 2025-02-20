@@ -13,7 +13,9 @@ const App = () => {
       <Nav />
       </div>
       <main id="content">
+        <section>
         <Outlet />
+        </section>
       </main>
       <Footer />
     </div>

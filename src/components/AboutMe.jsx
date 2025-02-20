@@ -1,8 +1,9 @@
 import React from 'react';
+import '../assets/css/style.css'
 
 const AboutMe = () => {
     return (
-      <section id="section1">
+      <section >
         <p>WEBSITE COMING SOON</p>
       </section>
     );
