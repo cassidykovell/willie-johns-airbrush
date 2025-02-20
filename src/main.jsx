@@ -5,6 +5,7 @@ import App from './App';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
+import Landing from './components/Landing';
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       children: [
         {
           index: true,
+          element: <Landing />,
+        },
+        {
+          path: '/aboutme',
           element: <AboutMe />,
         },
         {

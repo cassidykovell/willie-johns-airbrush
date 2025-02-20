@@ -1,16 +1,52 @@
 
+  * {
+    font-family: "Montserrat", serif;
+    background-color: rgb(225, 225, 225);
+  }
+  
   ul {
     display: flex;
     list-style-type: none;
-  }
-  
-  li {
-    padding: 1em;
+    text-decoration: none;
   }
   
   .noline:link {
     text-decoration: none;
   }
+
+  .noline {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  .noline:visited {
+    color: inherit; 
+  }
+
+  a:link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  li {
+    padding: 1em;
+    text-decoration: none;
+  }
+
+  #header {
+    text-decoration: none;
+    color: inherit; 
+  }
+
+  #header:visited {
+    color: inherit; 
+  }
+  
 
   #navbar {
     display: flex;
@@ -21,4 +57,23 @@
 #content {
   display: flex;
   justify-self: center;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#logo {
+  height: 35em;
+  width: 35em;
+}
+
+.landingpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

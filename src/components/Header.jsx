@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header>
-      <h1>WILLIE JOHN'S AIRBRUSH</h1>
-    </header>
+     <header>
+         <Link to="/"> <h1 id="header">WILLIE JOHN'S AIRBRUSH</h1></Link>
+       </header>
   );
 };
 
