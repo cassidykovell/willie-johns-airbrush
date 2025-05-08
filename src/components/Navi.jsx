@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/style.css'
 
-const NAv = () => {
+const Navi = () => {
   return (
     <nav>
       <ul>
@@ -14,4 +14,4 @@ const NAv = () => {
   );
 };
 
-export default NAv;
+export default Navi;
