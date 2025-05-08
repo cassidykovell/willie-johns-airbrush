@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import "../assets/css/style.css"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-// Import all images directly
+// Import all images directly 
 import Rest1 from "../assets/images/rest1.jpg"
 import Rest2 from "../assets/images/rest2.jpg"
 import Rest3 from "../assets/images/rest3.jpg"
@@ -307,7 +307,6 @@ const Section = ({ title, images, imagesPerView }) => {
   const getActiveIndicator = () => {
     if (images.length <= imagesPerView) return 0
 
-    // Handle wrap-around
     if (currentIndex > images.length - imagesPerView) {
       return 0
     }
