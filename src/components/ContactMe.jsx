@@ -1,6 +1,5 @@
 "use client"
 import { useState } from "react"
-import "../assets/css/style.css"
 import { Mail, Phone, Send, MapPin, Clock } from "lucide-react"
 
 const ContactMe = () => {
