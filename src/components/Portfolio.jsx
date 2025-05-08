@@ -5,7 +5,7 @@ import "../assets/css/style.css"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 // Import all images directly 
-import Rest1 from "../assets/images/rest1.jpg"
+import Rest1 from "../assets/images/restor1.jpg"
 import Rest2 from "../assets/images/rest2.jpg"
 import Rest3 from "../assets/images/rest3.jpg"
 import Rest4 from "../assets/images/rest4.jpg"
