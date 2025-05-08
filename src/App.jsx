@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
-import NAv from './components/NAv';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <div id="navbar">
       <Header />
-      <NAv />
+      <Nav />
       </div>
       <main id="content">
         <section>

@@ -7,7 +7,6 @@ import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 import Landing from './components/Landing';
 
-
 const router = createBrowserRouter([
     {
       path: '/',
